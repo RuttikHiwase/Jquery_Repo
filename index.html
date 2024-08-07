@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="jquery-3.7.1.slim.min.js"></script>   Connect Jquery By Downloaded file -->
+
+     <!-- Connect Jquery Using CDN   -> CDN is Faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+
+</head>
+<body>
+    <p> Hello World</p>
+    <script>
+        $(document).ready(function(){
+        // alert("OK");
+
+    });
+    </script>
+
+
+
+<!-- ----------------------------------Learn Code Jquery------------------------------ -->
+ <!-- 
+1.select html Element
+ 2. Perform jquery function/or action on selected element 
+  
+ Note : a.$() - is identification for Jquery Code
+        b.inside $() selector of any type is present
+        c. to perform any actions jquery has specific function inbuilt like hide() .
+           syntax- $(selector).action();
+           Eg-   $("#para").hide();   -----//It will Hide the Para.
+    //-------------------------------------------------------------------------------------//
+                              Selectors inn Jquery
+                              
+
+  -->
+
+  
+      <p id="pra">this is p1</p>
+      <p class="black">This is p2</p>
+      <p class="black">this is p3</p>
+
+      <script>
+        $("#pra").hide();
+      </script>
+
+
+
+
+    
+</body>
+</html>
